@@ -48,11 +48,21 @@ public class Cadastro extends HttpServlet
 			{
 				if (new AutorizacaoJAPDAO().salvar(autorizacao))
 				{
-					response.getWriter().write("Cadastro realizado com sucesso!");
+					JSONObject jsonResponse = new JSONObject();
+					jsonResponse.put("message", "Cadastro realizado com sucesso!");
+
+					response.setStatus(200);
+					response.setContentType("application/json");
+					response.getWriter().write(jsonResponse.toString());
 				}
 				else
 				{
-					response.getWriter().write("Erro ao realizar cadastro!");
+					JSONObject jsonResponse = new JSONObject();
+					jsonResponse.put("message", "Erro ao realizar cadastro!");
+
+					response.setStatus(500);
+					response.setContentType("application/json");
+					response.getWriter().write(jsonResponse.toString());
 				}
 			}
 			else
@@ -63,7 +73,19 @@ public class Cadastro extends HttpServlet
 		}
 		catch (JSONException e)
 		{
-			e.printStackTrace();
+			JSONObject jsonResponse = new JSONObject();
+			try
+			{
+				jsonResponse.put("message", "Cadastro não permitido! Não existe um critério para permitir ou negar o procedimento!");
+			}
+			catch (JSONException ex)
+			{
+				throw new RuntimeException(ex);
+			}
+
+			response.setStatus(400);
+			response.setContentType("application/json");
+			response.getWriter().write(jsonResponse.toString());
 		}
 	}
 

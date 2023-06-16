@@ -10,42 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d4bd7d-6f8e-4647-afdf-9ff181e67608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/AutorizacaoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/ControleAutorizacaoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/PacienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/ProcedimentoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/AutorizacaoJAPDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/ControleAutorizacaoJPADAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/JPAAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/JPAConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/PacienteJPADAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/ProcedimentoJPADAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Autorizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/ControleAutorizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Persistivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Procedimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Alteracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/controleAutorizacao/Alteracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/controleAutorizacao/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/controleAutorizacao/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/paciente/Alteracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/paciente/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/paciente/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/procedimento/Alteracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/procedimento/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/procedimento/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/autorizacao/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/autorizacao/consulta.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/ConsultaPorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/exclusao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/paciente/ConsultaPorNome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/procedimento/ConsultaPorNome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/autorizacao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/Autorizacao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mascaraCnpj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/controlecadastro/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/PacienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/PacienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/JPAAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/JPAAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/PacienteJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/dao/jpa/PacienteJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Autorizacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/entity/Autorizacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Cadastro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +73,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projetos_Pessoais/DesafioFullStack/ControleCadastro/src/main/java/com/controlecadastro/services/autorizacao",
+    "last_opened_file_path": "D:/Projetos_Pessoais/DesafioFullStack/ControleCadastro/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +87,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,6 +96,7 @@
       <recent name="com.controlecadastro.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos_Pessoais\DesafioFullStack\ControleCadastro\src\main\webapp" />
       <recent name="D:\Projetos_Pessoais\DesafioFullStack\ControleCadastro\src\main\java\com\controlecadastro\services\autorizacao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,16 +106,15 @@
       <recent name="D:\Projetos_Pessoais\DesafioFullStack\ControleCadastro\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controlecadastro.services.procedimento" />
+      <recent name="com.controlecadastro.services.paciente" />
       <recent name="com.controlecadastro.services.autorizacao" />
       <recent name="com.controlecadastro.services.controleAutorizacao" />
-      <recent name="com.controlecadastro.services.paciente" />
       <recent name="com.controlecadastro.services.controleProcedimento" />
-      <recent name="com.controlecadastro.controller.procedimento" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="JBoss/WildFly 20.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 20.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <deployment>
         <artifact name="ControleCadastro:war exploded">
@@ -220,7 +208,9 @@
       <workItem from="1686794411384" duration="6127000" />
       <workItem from="1686857679032" duration="162000" />
       <workItem from="1686865947514" duration="8198000" />
-      <workItem from="1686878075288" duration="11459000" />
+      <workItem from="1686878075288" duration="11796000" />
+      <workItem from="1686913765536" duration="508000" />
+      <workItem from="1686914305562" duration="24613000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1686185844410</created>
@@ -229,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686185844410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inicial commit">
+      <created>1686889583968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686889583968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +234,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicial" />
+    <MESSAGE value="Inicial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,11 +243,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/target/classes/com/controlecadastro/entity/Paciente.class</url>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/controlecadastro/services/autorizacao/Cadastro.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

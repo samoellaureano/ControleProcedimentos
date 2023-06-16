@@ -21,7 +21,7 @@ public class Autorizacao extends Persistivel implements Serializable
 	private Paciente paciente;
 
 	@Column(nullable = false)
-	@Temporal(TemporalType.DATE)
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date data;
 
 	@Column(nullable = false)

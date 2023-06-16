@@ -1,5 +1,6 @@
 package com.controlecadastro.dao.jpa;
 
+import com.controlecadastro.entity.Paciente;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -87,5 +88,22 @@ public abstract class JPAAbstract<T> extends JPAConnection
 
 	}
 
+	public List<T> buscarPorNome(String nome)
+	{
+		List<T> lista = new ArrayList<>();
+		String jpql = "select c from " + getEntityName() + " c where c.nome like :nome";
+		Query query = super.getQuery(jpql);
+		query.setParameter("nome", "".equals(nome) ? nome : nome + "%");
+
+		@SuppressWarnings("rawtypes") List list = query.getResultList();
+		for (Object object : list)
+		{
+			lista.add((T) object);
+		}
+		super.close();
+		return lista;
+	}
+
 	public abstract String getEntityName();
+
 }
